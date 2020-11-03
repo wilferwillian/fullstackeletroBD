@@ -1,0 +1,6 @@
+CREATE TABLE `comentarios` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(100) NOT NULL,
+  `mensagem` varchar(300) NOT NULL,
+  `data` datetime DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
